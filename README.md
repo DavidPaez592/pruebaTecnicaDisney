@@ -35,6 +35,8 @@ El proyecto uso varias dependencias tales como :
 -Tailwind css
 -Tailwind no scrollbar
 
+Toda la info de las peliculas fue tomada de una pagina llamada, https://developer.themoviedb.org/docs/getting-started, las imagenes, informacion y todo por medio de api.
+
 El proceso para desplegarlo en local es sencillo, simplemente es copiar el repo o bajar el zip, realizar un "npm install" y un install a las dependencias mencionadas anteriormente, en cualquier caso me pueden preguntar y sin embargo yo dejare el proyecto desplegado para que puedan verlo en funcion, el proyecto es responsive en mas de la mitad, tuve algun inconveniente por lo cual no es completo pero se ajustara en la proxima version.
 
 Construido con 🛠️
@@ -51,6 +53,7 @@ Este proyecto está bajo la Licencia (DavidPaez592).
 
 Despliegue para hacer prueba : _
 https://prueba-tecnica-disney-j8r46c5kr-davidpaez592s-projects.vercel.app/
+Para. isualizar talvez requiera ingresar o crear una cuenta en vercel, con git se puede vincular.
 Si no pueden visualizar porfavor avisarme.
 
 Agradezco mucho su amable tiempo, en tomarse la molestia de verlo y darme un feedback al respecto, lo recibire con mucho cariño y como una critica constructiva🎁
