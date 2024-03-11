@@ -1,0 +1,71 @@
+/* Asegúrate de agregar estos estilos a tu archivo de estilos CSS */
+
+.login-container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./login-background.jpg'); /* Reemplaza 'tu_ruta_de_imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.background-image img {
+    width: 360px;
+    height: 220px;
+}
+
+.login-content {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white; /* Color de texto blanco para el contenido general */
+}
+
+.card {
+    margin-right: 90vh;
+    max-width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.card h2 {
+    color: white !important; /* Color de texto blanco para el título "Iniciar Sesión" */
+}
+
+.card label {
+    color: white !important; /* Color de texto blanco para las etiquetas del formulario */
+}
+
+.form-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.correo-label, .clave-label {
+    color: white !important; /* Puedes usar !important si es necesario */
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%; /* Establece un ancho fijo para los campos de entrada */
+}
+
+.botonIngresar{
+    background-color: #6421ff;
+}

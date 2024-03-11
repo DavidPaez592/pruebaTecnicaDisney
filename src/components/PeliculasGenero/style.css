@@ -1,0 +1,17 @@
+
+.ant-btn-default.botonPlay:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #000000;
+    border-color: #006ff7;
+    background: #ffffff;
+    
+}
+
+.botonPlay {
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+

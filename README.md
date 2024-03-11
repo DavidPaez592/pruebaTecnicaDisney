@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+FrontEnd Developer Test - Inspired On Disney+ App
+Este es una prueba tenica de react inspirada en la app de disney+, el proyecto consiste en un aplicativo web que permite visualizar contenido multimedia tipo video a usuarios con 
+cuenta activa, el proyecto se constituye de la siguiente manera : 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-Home : Esta es nuestra pagina principal, alli se puede visualizar contenido como planes, lo que se ofrece y preguntas frecuentes, el unico boton interactivo sera el del login que esta en la esquina superior derecha.
 
-## Available Scripts
+-Login : Esta pantalla cuenta con campos de correo, contraseña y un boton de ingresar, este es un login para poder ingresar a nuestra app, los usuarios que estan permitidos para ingresar son : 
+    -correo: prueba@gmail.com
+      clave: 123456
+    -correo: usuarioPrueba@gmail.com
+      clave: 12345
+son los unicos usuarios permitidos, de lo contrario no se podra ingresar al aplicativo.
 
-In the project directory, you can run:
+-Header(pagina principal) : Esta es nuestra pagina principal, alli encontraremos una serie de peliculas, sliders, categorias, navbar, iconos, etc, lo interactivo de esta pantalla es : 
+-Slider
+-Categorias(con su animacion)
+-Peliculas y sus sliders
+-Navbar
+-Boton cerrar sesion
+-Peliculas( boton de trailer despliega un popup con el trailer correspondiente)
 
-### `npm start`
+-Peliculas : Estas pantallas mostraran la informacion de la pelicua, su banner, su año, su genero, sus actores y una descripcion, como lo dije anteriomente en el boton de trailer lo pueden clickear y este les mostrara el video
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Comenzando 🚀
+El proyecto uso varias dependencias tales como : 
+-Npm
+-React dom router
+-Styled-components
+-Antdesing
+-Antdesing-icons
+-Axios
+-Redux
+-Slick-carrousel
+-Redux toolkit
+-Tailwind css
+-Tailwind no scrollbar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+El proceso para desplegarlo en local es sencillo, simplemente es copiar el repo o bajar el zip, realizar un "npm install" y un install a las dependencias mencionadas anteriormente, en cualquier caso me pueden preguntar y sin embargo yo dejare el proyecto desplegado para que puedan verlo en funcion, el proyecto es responsive en mas de la mitad, tuve algun inconveniente por lo cual no es completo pero se ajustara en la proxima version.
 
-### `npm test`
+Construido con 🛠️
+El proyecto fue construido con : 
+-React JS
+-Javascript
+-Tailwind
+-Html
+-CSS
+-Ux/ui
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Licencia 📄
+Este proyecto está bajo la Licencia (DavidPaez592).
 
-### `npm run build`
+Agradezco mucho su amable tiempo, en tomarse la molestia de verlo y darme un feedback al respecto, lo recibire con mucho cariño y como una critica constructiva🎁
+![alt text](image.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⌨️ con ❤️ por David Paez 😊
