@@ -51,8 +51,8 @@ El proyecto fue construido con :
 Licencia 📄
 Este proyecto está bajo la Licencia (DavidPaez592).
 
-Despliegue para hacer prueba : _
-https://prueba-tecnica-disney-j8r46c5kr-davidpaez592s-projects.vercel.app/
+Despliegue para hacer prueba :
+https://prueba-tecnica-disney.vercel.app/
 Para. isualizar talvez requiera ingresar o crear una cuenta en vercel, con git se puede vincular.
 Si no pueden visualizar porfavor avisarme.
 
