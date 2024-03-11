@@ -1,5 +1,6 @@
 {
   "name": "disney-app",
+  "homepage": "https://DavidPaez592.github.io/pruebaTecnicaDisney",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,7 @@
     "axios": "^1.6.7",
     "browserify-zlib": "^0.2.0",
     "firebase": "^10.8.1",
+    "gh-pages": "^6.1.1",
     "https-browserify": "^1.0.0",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
@@ -37,7 +39,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
